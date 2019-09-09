@@ -41,10 +41,11 @@ function openFile(maven, maven_version, exe_suitable) {
     )}.java`
   );
 }
-openFile.prototype.utf8_exe = n =>
-  setTimeout(() => {
-    let log = console.log;
-    log("process:a--> line 4");
-    log("process:b--> line 7");
-    log("process:c--> line 18::function");
-  }, 1000);
+openFile.prototype.utf8_exe = n => {};
+
+setTimeout(() => {
+  let log = console.log;
+  log("process:a--> line 4");
+  log("process:b--> line 7");
+  log("process:c--> line 18::function");
+}, 1000);
