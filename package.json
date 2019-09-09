@@ -1,6 +1,6 @@
 {
   "name": "java-javascript",
-  "version": "1.0.0",
+  "version": "0.0.1-DEV",
   "description": "the ultimate translater",
   "main": "src/index.js",
   "scripts": {
@@ -16,5 +16,5 @@
   "devDependencies": {
     "nodemon": "1.18.4"
   },
-  "keywords": []
+  "keywords": ["java", "javascript", "translator", "template"]
 }
