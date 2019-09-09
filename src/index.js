@@ -7,6 +7,14 @@ db.run("CREATE TABLE file(data text, length int)", function(err) {
 db.run("INSERT INTO file(data,length) VALUES (?,?)", ["0", 0], function(err) {
   console.log("process:b--> ", JSON.stringify(err, null, 4));
 });
+db.run("SELECT * FROM file(data,length)", function(err, row) {
+  console.log(
+    "process:b--> \n",
+    JSON.stringify(err, null, 4),
+    "\n",
+    JSON.stringify(row, null, 4)
+  );
+});
 /**
  *
  * @param {string} fname the name of file
