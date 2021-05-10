@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "encrypto": "1.0.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "sqlite3": "^4.1.0",
     "webpack": "^4.39.3"
   },
