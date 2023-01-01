@@ -11,7 +11,7 @@
     "encrypto": "1.0.6",
     "lodash": "^4.17.15",
     "sqlite3": "^4.1.0",
-    "webpack": "^4.39.3"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
